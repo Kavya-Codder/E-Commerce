@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Favourite-->
+        <scene sceneID="BHm-FL-rsA">
+            <objects>
+                <viewController id="yKo-f9-cq8" customClass="FavouriteTBC" customModule="E_commerce_Application" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Kei-9n-F8j">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rYo-9c-7BN">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bfR-Bi-zyf">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                        <subviews>
+                                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="tsy-Th-8Dr">
+                                                <rect key="frame" x="0.0" y="5" width="414" height="891"/>
+                                                <color key="backgroundColor" name="appBGColour"/>
+                                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="gxb-Zv-pqU">
+                                                    <size key="itemSize" width="128" height="128"/>
+                                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                </collectionViewFlowLayout>
+                                                <cells>
+                                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="Wg5-cY-BFk">
+                                                        <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="RD7-Of-lsq">
+                                                            <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                                                            <autoresizingMask key="autoresizingMask"/>
+                                                        </collectionViewCellContentView>
+                                                    </collectionViewCell>
+                                                </cells>
+                                            </collectionView>
+                                        </subviews>
+                                        <color key="backgroundColor" name="appBGColour"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="tsy-Th-8Dr" secondAttribute="trailing" id="2Ud-BI-08v"/>
+                                            <constraint firstAttribute="bottom" secondItem="tsy-Th-8Dr" secondAttribute="bottom" id="5xo-9x-hO6"/>
+                                            <constraint firstItem="tsy-Th-8Dr" firstAttribute="leading" secondItem="bfR-Bi-zyf" secondAttribute="leading" id="f1F-ZD-hMx"/>
+                                            <constraint firstItem="tsy-Th-8Dr" firstAttribute="top" secondItem="bfR-Bi-zyf" secondAttribute="top" constant="5" id="imp-9P-8ba"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="bfR-Bi-zyf" secondAttribute="trailing" id="3W3-Rf-xK6"/>
+                                    <constraint firstItem="bfR-Bi-zyf" firstAttribute="width" secondItem="rYo-9c-7BN" secondAttribute="width" id="6WE-Ot-8od"/>
+                                    <constraint firstItem="bfR-Bi-zyf" firstAttribute="height" secondItem="rYo-9c-7BN" secondAttribute="height" priority="250" id="hCQ-Ke-wqd"/>
+                                    <constraint firstItem="bfR-Bi-zyf" firstAttribute="top" secondItem="rYo-9c-7BN" secondAttribute="top" id="mOp-W4-cH5"/>
+                                    <constraint firstAttribute="bottom" secondItem="bfR-Bi-zyf" secondAttribute="bottom" id="mhA-jg-Ohl"/>
+                                    <constraint firstItem="bfR-Bi-zyf" firstAttribute="leading" secondItem="rYo-9c-7BN" secondAttribute="leading" id="pKu-Aj-dge"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="thI-yN-ufQ"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="Ihu-MV-fIn"/>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Tgd-5Y-ife"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="rYo-9c-7BN" firstAttribute="trailing" secondItem="Tgd-5Y-ife" secondAttribute="trailing" id="0Tz-NB-bW5"/>
+                            <constraint firstAttribute="bottom" secondItem="rYo-9c-7BN" secondAttribute="bottom" id="A3g-Ab-oFf"/>
+                            <constraint firstItem="rYo-9c-7BN" firstAttribute="leading" secondItem="Tgd-5Y-ife" secondAttribute="leading" id="hQt-Fc-BGE"/>
+                            <constraint firstItem="rYo-9c-7BN" firstAttribute="top" secondItem="Kei-9n-F8j" secondAttribute="top" id="sc1-DN-97x"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Favourite" id="raf-Oo-mtI">
+                        <barButtonItem key="rightBarButtonItem" title="Item" image="searchImg" id="h0j-AH-wU3">
+                            <color key="tintColor" name="Black"/>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="collectionView" destination="tsy-Th-8Dr" id="AFL-3R-8WQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bCJ-kE-BBg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="11767" y="-1864"/>
+        </scene>
+        <!--Faviorites-->
+        <scene sceneID="jUK-kP-6Ac">
+            <objects>
+                <navigationController storyboardIdentifier="FavoritesNav" automaticallyAdjustsScrollViewInsets="NO" id="hH9-Gu-k8N" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Faviorites" image="heart" catalog="system" selectedImage="heart.fill" id="SsZ-U4-eNV">
+                        <color key="badgeColor" name="Primary"/>
+                    </tabBarItem>
+                    <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="GRB-tJ-ujH">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="yKo-f9-cq8" kind="relationship" relationship="rootViewController" id="8b4-jg-QVw"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="S62-9b-JZi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="10948" y="-1863"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="heart" catalog="system" width="128" height="109"/>
+        <image name="heart.fill" catalog="system" width="128" height="109"/>
+        <image name="searchImg" width="18" height="17.5"/>
+        <namedColor name="Black">
+            <color red="0.13333333333333333" green="0.13333333333333333" blue="0.13333333333333333" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Primary">
+            <color red="0.85900002717971802" green="0.18799999356269836" blue="0.13300000131130219" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="appBGColour">
+            <color red="0.84705882352941175" green="0.84705882352941175" blue="0.84705882352941175" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

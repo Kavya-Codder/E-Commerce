@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="SearchScreenCVC" id="PZB-d6-oGq" customClass="SearchScreenCVC" customModule="E_commerce_Application" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="144" height="165"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="144" height="165"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="homeCellImage" translatesAutoresizingMaskIntoConstraints="NO" id="87W-KV-Khp">
+                        <rect key="frame" x="0.0" y="0.0" width="144" height="100"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="100" id="k1h-8V-Q4K"/>
+                        </constraints>
+                    </imageView>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Zv7-ij-vyR">
+                        <rect key="frame" x="10" y="105" width="124" height="34"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Engraved's Ring" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pUX-Gb-I7M">
+                                <rect key="frame" x="0.0" y="0.0" width="124" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" name="Black"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$1, 300005" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dzo-8g-s1g">
+                                <rect key="frame" x="0.0" y="17" width="124" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" name="Black"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="-45" translatesAutoresizingMaskIntoConstraints="NO" id="et8-cd-6rt">
+                        <rect key="frame" x="15" y="144" width="119" height="10"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="starIcon-1" translatesAutoresizingMaskIntoConstraints="NO" id="aCv-sd-vWd">
+                                <rect key="frame" x="0.0" y="0.0" width="60" height="10"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="starIcon-1" translatesAutoresizingMaskIntoConstraints="NO" id="fCp-9P-0Y0">
+                                <rect key="frame" x="15" y="0.0" width="59.5" height="10"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="starIcon-1" translatesAutoresizingMaskIntoConstraints="NO" id="KVn-NZ-Ab2">
+                                <rect key="frame" x="29.5" y="0.0" width="60" height="10"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="starIcon-1" translatesAutoresizingMaskIntoConstraints="NO" id="xVl-e7-vhQ">
+                                <rect key="frame" x="44.5" y="0.0" width="59.5" height="10"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="starIcon-1" translatesAutoresizingMaskIntoConstraints="NO" id="cao-QW-SWo">
+                                <rect key="frame" x="59" y="0.0" width="60" height="10"/>
+                            </imageView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="10" id="RjR-7b-3MV"/>
+                        </constraints>
+                    </stackView>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ILl-J1-yaY"/>
+            <color key="backgroundColor" name="White"/>
+            <constraints>
+                <constraint firstItem="Zv7-ij-vyR" firstAttribute="top" secondItem="87W-KV-Khp" secondAttribute="bottom" constant="5" id="5OT-hT-fUg"/>
+                <constraint firstAttribute="trailing" secondItem="et8-cd-6rt" secondAttribute="trailing" constant="10" id="CCT-XL-Uxh"/>
+                <constraint firstItem="et8-cd-6rt" firstAttribute="top" secondItem="Zv7-ij-vyR" secondAttribute="bottom" constant="5" id="I6E-QK-u42"/>
+                <constraint firstAttribute="trailing" secondItem="87W-KV-Khp" secondAttribute="trailing" id="OYP-Zo-U5a"/>
+                <constraint firstItem="87W-KV-Khp" firstAttribute="leading" secondItem="PZB-d6-oGq" secondAttribute="leading" id="Xza-uM-NgV"/>
+                <constraint firstItem="Zv7-ij-vyR" firstAttribute="leading" secondItem="PZB-d6-oGq" secondAttribute="leading" constant="10" id="mrP-hy-f6h"/>
+                <constraint firstAttribute="trailing" secondItem="Zv7-ij-vyR" secondAttribute="trailing" constant="10" id="n2g-oW-642"/>
+                <constraint firstItem="87W-KV-Khp" firstAttribute="top" secondItem="PZB-d6-oGq" secondAttribute="top" id="oWg-gp-YBr"/>
+                <constraint firstItem="et8-cd-6rt" firstAttribute="leading" secondItem="PZB-d6-oGq" secondAttribute="leading" constant="15" id="pP1-Ms-WTv"/>
+            </constraints>
+            <size key="customSize" width="144" height="174"/>
+            <point key="canvasLocation" x="-184.05797101449278" y="-10.379464285714285"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="homeCellImage" width="148" height="98"/>
+        <image name="starIcon-1" width="12" height="11.5"/>
+        <namedColor name="Black">
+            <color red="0.13333333333333333" green="0.13333333333333333" blue="0.13333333333333333" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="White">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

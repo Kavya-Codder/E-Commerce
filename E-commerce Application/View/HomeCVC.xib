@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="HomeCVC" id="gTV-IL-0wX" customClass="HomeCVC" customModule="E_commerce_Application" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="150" height="170"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="150" height="170"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="homeCellImage" translatesAutoresizingMaskIntoConstraints="NO" id="Pur-1R-J1D">
+                        <rect key="frame" x="0.0" y="5" width="150" height="110"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="110" id="GBe-ur-AQ3"/>
+                        </constraints>
+                    </imageView>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="0Xk-Uc-GcQ">
+                        <rect key="frame" x="5" y="122" width="140" height="36"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Engraved&quot;s Ring" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gmZ-LW-WqL">
+                                <rect key="frame" x="0.0" y="0.0" width="140" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$1,350.00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8pk-qg-Rlz">
+                                <rect key="frame" x="0.0" y="19" width="140" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" name="Success"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="0Xk-Uc-GcQ" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="5" id="5U4-s9-wDr"/>
+                <constraint firstItem="Pur-1R-J1D" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="7eV-I7-2lk"/>
+                <constraint firstItem="0Xk-Uc-GcQ" firstAttribute="top" secondItem="Pur-1R-J1D" secondAttribute="bottom" constant="7" id="EeE-hp-a37"/>
+                <constraint firstItem="Pur-1R-J1D" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="ItB-Cm-zPE"/>
+                <constraint firstAttribute="trailing" secondItem="0Xk-Uc-GcQ" secondAttribute="trailing" constant="5" id="Lia-B4-jcI"/>
+                <constraint firstAttribute="bottom" secondItem="0Xk-Uc-GcQ" secondAttribute="bottom" constant="12" id="fFf-vR-nr4"/>
+                <constraint firstAttribute="trailing" secondItem="Pur-1R-J1D" secondAttribute="trailing" id="veg-90-hr4"/>
+            </constraints>
+            <size key="customSize" width="117" height="94"/>
+            <connections>
+                <outlet property="nameTxt" destination="gmZ-LW-WqL" id="YTr-Hd-aLT"/>
+                <outlet property="priceTxt" destination="8pk-qg-Rlz" id="9mI-p1-koc"/>
+                <outlet property="productImg" destination="Pur-1R-J1D" id="nBV-yT-zUw"/>
+            </connections>
+            <point key="canvasLocation" x="95.652173913043484" y="100.44642857142857"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="homeCellImage" width="148" height="98"/>
+        <namedColor name="Success">
+            <color red="0.16500000655651093" green="0.66299998760223389" blue="0.32199999690055847" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

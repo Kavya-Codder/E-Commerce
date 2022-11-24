@@ -1,0 +1,755 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FD85E3CEDCF1C3885F3CB0BADC80DAE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		3DD0003BAFB96A3E3AC5D257F6FD3B9F /* Pods-E-commerce Application-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 640D639C8C704F2DEFAE4BDC648230B9 /* Pods-E-commerce Application-dummy.m */; };
+		52291BA07D12E21F23DE20953D6BF384 /* Pods-E-commerce Application-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 039805674EBA86168D6EFBB564A02F3A /* Pods-E-commerce Application-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		844BE05EBC3C8309944D8483DDA4DA22 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		8A0CB06668C8A3B527E2585F33BC55A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		934A6F54F12F50264D9F25F8B3741FE3 /* Pods-E-commerce ApplicationTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CFFE21D20F36E5AFFD20372173A53887 /* Pods-E-commerce ApplicationTests-dummy.m */; };
+		AD88E359616183B12606B8C3DC852868 /* Pods-E-commerce Application-E-commerce ApplicationUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C3AA5A71AD525B045D412BFAA03C541 /* Pods-E-commerce Application-E-commerce ApplicationUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4C4880701588AEF7B9B248764866FB0 /* Pods-E-commerce Application-E-commerce ApplicationUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C741360CF1E5F90205F382D5E4F09F /* Pods-E-commerce Application-E-commerce ApplicationUITests-dummy.m */; };
+		F8C77B288AFC82BE013D92B7C1F30677 /* Pods-E-commerce ApplicationTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F7B6EA113572A0DEE6CB613DB573779 /* Pods-E-commerce ApplicationTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6EF6AC2C7B5F18D6F43CCEAA453662D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C2EC5CDFC61CBEBECB4AF780D2E3210;
+			remoteInfo = "Pods-E-commerce Application";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01983B8AA7508F03EE557FD7BD9B09D2 /* Pods-E-commerce ApplicationTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-E-commerce ApplicationTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		039805674EBA86168D6EFBB564A02F3A /* Pods-E-commerce Application-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-E-commerce Application-umbrella.h"; sourceTree = "<group>"; };
+		0C3BA0C2C67831C98A38FBC1AFC39970 /* Pods-E-commerce Application-E-commerce ApplicationUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-E-commerce Application-E-commerce ApplicationUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		14A925D7CDD598D8EE60A4F3B10F7C08 /* Pods-E-commerce Application-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-E-commerce Application-Info.plist"; sourceTree = "<group>"; };
+		26EF4AEF2CCE11EF7AA988DBAA0307ED /* Pods-E-commerce ApplicationTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-E-commerce ApplicationTests.modulemap"; sourceTree = "<group>"; };
+		2CEEB007D3DA6E6F7A274BD48BF98676 /* Pods-E-commerce ApplicationTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-E-commerce ApplicationTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2D9A976BB16B8FB6056137BEC8BF0A35 /* Pods-E-commerce Application-E-commerce ApplicationUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-E-commerce Application-E-commerce ApplicationUITests"; path = Pods_E_commerce_Application_E_commerce_ApplicationUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3113B244C4CBB3CDA1DD14DD74C33477 /* Pods-E-commerce Application */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-E-commerce Application"; path = Pods_E_commerce_Application.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EFE96624A8A4D8C6FDD04030D209D7B /* Pods-E-commerce Application-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-E-commerce Application-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4C3AA5A71AD525B045D412BFAA03C541 /* Pods-E-commerce Application-E-commerce ApplicationUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-E-commerce Application-E-commerce ApplicationUITests-umbrella.h"; sourceTree = "<group>"; };
+		5E555C302EE06B6AC316B9DE9EAC9245 /* Pods-E-commerce ApplicationTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-E-commerce ApplicationTests-Info.plist"; sourceTree = "<group>"; };
+		640D639C8C704F2DEFAE4BDC648230B9 /* Pods-E-commerce Application-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-E-commerce Application-dummy.m"; sourceTree = "<group>"; };
+		644B42CB08BFE211490858E20AE64D64 /* Pods-E-commerce ApplicationTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-E-commerce ApplicationTests"; path = Pods_E_commerce_ApplicationTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		64C741360CF1E5F90205F382D5E4F09F /* Pods-E-commerce Application-E-commerce ApplicationUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-E-commerce Application-E-commerce ApplicationUITests-dummy.m"; sourceTree = "<group>"; };
+		7088F2A410F1CF62B9D5A4B8B7D5A49E /* Pods-E-commerce Application.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-E-commerce Application.modulemap"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7F7B6EA113572A0DEE6CB613DB573779 /* Pods-E-commerce ApplicationTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-E-commerce ApplicationTests-umbrella.h"; sourceTree = "<group>"; };
+		9C9ADBC05D69979CB49A3B07E5E73478 /* Pods-E-commerce Application-E-commerce ApplicationUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-E-commerce Application-E-commerce ApplicationUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A494D77F3426B38065D55F53F43DCB07 /* Pods-E-commerce Application-E-commerce ApplicationUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-E-commerce Application-E-commerce ApplicationUITests-Info.plist"; sourceTree = "<group>"; };
+		B317B75636C21659B2E4C6565AE45FCD /* Pods-E-commerce Application-E-commerce ApplicationUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-E-commerce Application-E-commerce ApplicationUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C4491F14909F44A001CDED32EF1A0D48 /* Pods-E-commerce Application.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-E-commerce Application.release.xcconfig"; sourceTree = "<group>"; };
+		C522B10F65BA83479B956650CBECAF4A /* Pods-E-commerce ApplicationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-E-commerce ApplicationTests.release.xcconfig"; sourceTree = "<group>"; };
+		CACC81DA4607B636BFA6176739A8A662 /* Pods-E-commerce ApplicationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-E-commerce ApplicationTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CFFE21D20F36E5AFFD20372173A53887 /* Pods-E-commerce ApplicationTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-E-commerce ApplicationTests-dummy.m"; sourceTree = "<group>"; };
+		D0700C2D7D540B3D772F6566FF26277B /* Pods-E-commerce Application-E-commerce ApplicationUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-E-commerce Application-E-commerce ApplicationUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D235EAAAF5E84332F6DBFA54601A2DC6 /* Pods-E-commerce Application-E-commerce ApplicationUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-E-commerce Application-E-commerce ApplicationUITests.modulemap"; sourceTree = "<group>"; };
+		D8FAF9B20811BE679A5B08FC4496C00E /* Pods-E-commerce Application.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-E-commerce Application.debug.xcconfig"; sourceTree = "<group>"; };
+		FA5CEE5C0830AFA980E615A8F576F619 /* Pods-E-commerce Application-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-E-commerce Application-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		576648CE70E29105A53197CD46BCE411 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A0CB06668C8A3B527E2585F33BC55A1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A90ADFBF8CDDB82130E9E3376A29AC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				844BE05EBC3C8309944D8483DDA4DA22 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76B0E2F0DC1D02E4A8710B6558BA5AD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FD85E3CEDCF1C3885F3CB0BADC80DAE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3EC34EE68F93CF216B623C773CFF735A /* Pods-E-commerce ApplicationTests */ = {
+			isa = PBXGroup;
+			children = (
+				26EF4AEF2CCE11EF7AA988DBAA0307ED /* Pods-E-commerce ApplicationTests.modulemap */,
+				01983B8AA7508F03EE557FD7BD9B09D2 /* Pods-E-commerce ApplicationTests-acknowledgements.markdown */,
+				2CEEB007D3DA6E6F7A274BD48BF98676 /* Pods-E-commerce ApplicationTests-acknowledgements.plist */,
+				CFFE21D20F36E5AFFD20372173A53887 /* Pods-E-commerce ApplicationTests-dummy.m */,
+				5E555C302EE06B6AC316B9DE9EAC9245 /* Pods-E-commerce ApplicationTests-Info.plist */,
+				7F7B6EA113572A0DEE6CB613DB573779 /* Pods-E-commerce ApplicationTests-umbrella.h */,
+				CACC81DA4607B636BFA6176739A8A662 /* Pods-E-commerce ApplicationTests.debug.xcconfig */,
+				C522B10F65BA83479B956650CBECAF4A /* Pods-E-commerce ApplicationTests.release.xcconfig */,
+			);
+			name = "Pods-E-commerce ApplicationTests";
+			path = "Target Support Files/Pods-E-commerce ApplicationTests";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6B19761DB3F77B64B3CFEF96BBA784FF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C53D6A79AE731E881F94F3B795079644 /* Pods-E-commerce Application */,
+				DF34CBA0E75C0D7FF557F7EF823A0D15 /* Pods-E-commerce Application-E-commerce ApplicationUITests */,
+				3EC34EE68F93CF216B623C773CFF735A /* Pods-E-commerce ApplicationTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C53D6A79AE731E881F94F3B795079644 /* Pods-E-commerce Application */ = {
+			isa = PBXGroup;
+			children = (
+				7088F2A410F1CF62B9D5A4B8B7D5A49E /* Pods-E-commerce Application.modulemap */,
+				3EFE96624A8A4D8C6FDD04030D209D7B /* Pods-E-commerce Application-acknowledgements.markdown */,
+				FA5CEE5C0830AFA980E615A8F576F619 /* Pods-E-commerce Application-acknowledgements.plist */,
+				640D639C8C704F2DEFAE4BDC648230B9 /* Pods-E-commerce Application-dummy.m */,
+				14A925D7CDD598D8EE60A4F3B10F7C08 /* Pods-E-commerce Application-Info.plist */,
+				039805674EBA86168D6EFBB564A02F3A /* Pods-E-commerce Application-umbrella.h */,
+				D8FAF9B20811BE679A5B08FC4496C00E /* Pods-E-commerce Application.debug.xcconfig */,
+				C4491F14909F44A001CDED32EF1A0D48 /* Pods-E-commerce Application.release.xcconfig */,
+			);
+			name = "Pods-E-commerce Application";
+			path = "Target Support Files/Pods-E-commerce Application";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				E0307A57397F9FEACD4108D95788DFA0 /* Products */,
+				6B19761DB3F77B64B3CFEF96BBA784FF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF34CBA0E75C0D7FF557F7EF823A0D15 /* Pods-E-commerce Application-E-commerce ApplicationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D235EAAAF5E84332F6DBFA54601A2DC6 /* Pods-E-commerce Application-E-commerce ApplicationUITests.modulemap */,
+				0C3BA0C2C67831C98A38FBC1AFC39970 /* Pods-E-commerce Application-E-commerce ApplicationUITests-acknowledgements.markdown */,
+				D0700C2D7D540B3D772F6566FF26277B /* Pods-E-commerce Application-E-commerce ApplicationUITests-acknowledgements.plist */,
+				64C741360CF1E5F90205F382D5E4F09F /* Pods-E-commerce Application-E-commerce ApplicationUITests-dummy.m */,
+				A494D77F3426B38065D55F53F43DCB07 /* Pods-E-commerce Application-E-commerce ApplicationUITests-Info.plist */,
+				4C3AA5A71AD525B045D412BFAA03C541 /* Pods-E-commerce Application-E-commerce ApplicationUITests-umbrella.h */,
+				B317B75636C21659B2E4C6565AE45FCD /* Pods-E-commerce Application-E-commerce ApplicationUITests.debug.xcconfig */,
+				9C9ADBC05D69979CB49A3B07E5E73478 /* Pods-E-commerce Application-E-commerce ApplicationUITests.release.xcconfig */,
+			);
+			name = "Pods-E-commerce Application-E-commerce ApplicationUITests";
+			path = "Target Support Files/Pods-E-commerce Application-E-commerce ApplicationUITests";
+			sourceTree = "<group>";
+		};
+		E0307A57397F9FEACD4108D95788DFA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3113B244C4CBB3CDA1DD14DD74C33477 /* Pods-E-commerce Application */,
+				2D9A976BB16B8FB6056137BEC8BF0A35 /* Pods-E-commerce Application-E-commerce ApplicationUITests */,
+				644B42CB08BFE211490858E20AE64D64 /* Pods-E-commerce ApplicationTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1D605C5B140B1CFDC07C94C3DD07F596 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8C77B288AFC82BE013D92B7C1F30677 /* Pods-E-commerce ApplicationTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26DB230A01F6124B532E9C4683ADA2AD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD88E359616183B12606B8C3DC852868 /* Pods-E-commerce Application-E-commerce ApplicationUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3C465C57405B7948DC2FAFEE26813AC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52291BA07D12E21F23DE20953D6BF384 /* Pods-E-commerce Application-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		496BD58B4FC622FC80ADF7048B9FCEA2 /* Pods-E-commerce Application-E-commerce ApplicationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 230DE0405A6A7A0B2DC58C3FA4795DDE /* Build configuration list for PBXNativeTarget "Pods-E-commerce Application-E-commerce ApplicationUITests" */;
+			buildPhases = (
+				26DB230A01F6124B532E9C4683ADA2AD /* Headers */,
+				30612A694092E187B507A3C93A01A188 /* Sources */,
+				576648CE70E29105A53197CD46BCE411 /* Frameworks */,
+				742CA73DD7432E63262819892E96FDEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-E-commerce Application-E-commerce ApplicationUITests";
+			productName = Pods_E_commerce_Application_E_commerce_ApplicationUITests;
+			productReference = 2D9A976BB16B8FB6056137BEC8BF0A35 /* Pods-E-commerce Application-E-commerce ApplicationUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		4C2EC5CDFC61CBEBECB4AF780D2E3210 /* Pods-E-commerce Application */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D85D743F36EFB2EBF3537C2436E6F0FD /* Build configuration list for PBXNativeTarget "Pods-E-commerce Application" */;
+			buildPhases = (
+				C3C465C57405B7948DC2FAFEE26813AC /* Headers */,
+				0D0DFF0C2977573E9201AFBEBE068332 /* Sources */,
+				76B0E2F0DC1D02E4A8710B6558BA5AD3 /* Frameworks */,
+				83A56CEF5E230FD19C456B3304F1F9A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-E-commerce Application";
+			productName = Pods_E_commerce_Application;
+			productReference = 3113B244C4CBB3CDA1DD14DD74C33477 /* Pods-E-commerce Application */;
+			productType = "com.apple.product-type.framework";
+		};
+		8D08B22A64FBAF032FB918D6FA9E55E4 /* Pods-E-commerce ApplicationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8A681FAFD08BAE0145AEAF8ACDBB366 /* Build configuration list for PBXNativeTarget "Pods-E-commerce ApplicationTests" */;
+			buildPhases = (
+				1D605C5B140B1CFDC07C94C3DD07F596 /* Headers */,
+				2C7A5D9339DA130CF6B299277F352E18 /* Sources */,
+				5A90ADFBF8CDDB82130E9E3376A29AC4 /* Frameworks */,
+				31454A3D313E550DFB7E4DA0A38AD456 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B6ADDA9EB1676E1EE7BF37A2EC3DACA /* PBXTargetDependency */,
+			);
+			name = "Pods-E-commerce ApplicationTests";
+			productName = Pods_E_commerce_ApplicationTests;
+			productReference = 644B42CB08BFE211490858E20AE64D64 /* Pods-E-commerce ApplicationTests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = E0307A57397F9FEACD4108D95788DFA0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C2EC5CDFC61CBEBECB4AF780D2E3210 /* Pods-E-commerce Application */,
+				496BD58B4FC622FC80ADF7048B9FCEA2 /* Pods-E-commerce Application-E-commerce ApplicationUITests */,
+				8D08B22A64FBAF032FB918D6FA9E55E4 /* Pods-E-commerce ApplicationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31454A3D313E550DFB7E4DA0A38AD456 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		742CA73DD7432E63262819892E96FDEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83A56CEF5E230FD19C456B3304F1F9A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D0DFF0C2977573E9201AFBEBE068332 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DD0003BAFB96A3E3AC5D257F6FD3B9F /* Pods-E-commerce Application-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C7A5D9339DA130CF6B299277F352E18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				934A6F54F12F50264D9F25F8B3741FE3 /* Pods-E-commerce ApplicationTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30612A694092E187B507A3C93A01A188 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4C4880701588AEF7B9B248764866FB0 /* Pods-E-commerce Application-E-commerce ApplicationUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B6ADDA9EB1676E1EE7BF37A2EC3DACA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-E-commerce Application";
+			target = 4C2EC5CDFC61CBEBECB4AF780D2E3210 /* Pods-E-commerce Application */;
+			targetProxy = 6EF6AC2C7B5F18D6F43CCEAA453662D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0C5707EE895121481692CB2DC80797DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4491F14909F44A001CDED32EF1A0D48 /* Pods-E-commerce Application.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-E-commerce Application/Pods-E-commerce Application-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-E-commerce Application/Pods-E-commerce Application.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0F0EE4E0E09867018A2F7747DED4CA7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CACC81DA4607B636BFA6176739A8A662 /* Pods-E-commerce ApplicationTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-E-commerce ApplicationTests/Pods-E-commerce ApplicationTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-E-commerce ApplicationTests/Pods-E-commerce ApplicationTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		634BD03F1EE9B24E5906356D44437791 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C9ADBC05D69979CB49A3B07E5E73478 /* Pods-E-commerce Application-E-commerce ApplicationUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-E-commerce Application-E-commerce ApplicationUITests/Pods-E-commerce Application-E-commerce ApplicationUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-E-commerce Application-E-commerce ApplicationUITests/Pods-E-commerce Application-E-commerce ApplicationUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		695944E81F45627030DC9CFEC7784404 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8FAF9B20811BE679A5B08FC4496C00E /* Pods-E-commerce Application.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-E-commerce Application/Pods-E-commerce Application-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-E-commerce Application/Pods-E-commerce Application.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		71243899B61152433AAE34EE86456EE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		75D70EEEA0A456E14F7338A7F342964E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BE16D7B2F66A390495EDBA559CD7050E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B317B75636C21659B2E4C6565AE45FCD /* Pods-E-commerce Application-E-commerce ApplicationUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-E-commerce Application-E-commerce ApplicationUITests/Pods-E-commerce Application-E-commerce ApplicationUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-E-commerce Application-E-commerce ApplicationUITests/Pods-E-commerce Application-E-commerce ApplicationUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FEF8C7C6B61164E9667BBB57E8B5ED5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C522B10F65BA83479B956650CBECAF4A /* Pods-E-commerce ApplicationTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-E-commerce ApplicationTests/Pods-E-commerce ApplicationTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-E-commerce ApplicationTests/Pods-E-commerce ApplicationTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		230DE0405A6A7A0B2DC58C3FA4795DDE /* Build configuration list for PBXNativeTarget "Pods-E-commerce Application-E-commerce ApplicationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE16D7B2F66A390495EDBA559CD7050E /* Debug */,
+				634BD03F1EE9B24E5906356D44437791 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75D70EEEA0A456E14F7338A7F342964E /* Debug */,
+				71243899B61152433AAE34EE86456EE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8A681FAFD08BAE0145AEAF8ACDBB366 /* Build configuration list for PBXNativeTarget "Pods-E-commerce ApplicationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F0EE4E0E09867018A2F7747DED4CA7F /* Debug */,
+				FEF8C7C6B61164E9667BBB57E8B5ED5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D85D743F36EFB2EBF3537C2436E6F0FD /* Build configuration list for PBXNativeTarget "Pods-E-commerce Application" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				695944E81F45627030DC9CFEC7784404 /* Debug */,
+				0C5707EE895121481692CB2DC80797DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
